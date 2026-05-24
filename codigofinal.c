@@ -140,5 +140,6 @@ void mostrar_resultados(int est,
         printf("Asignatura %d -> Promedio: %.2f | Max: (%.2f, Estudiante %d) | Min: (%.2f, Estudiante %d) | Aprobados: %d | Reprobados: %d\n",
                j+1, *(promA+j), *(maxA+j), *(estMax+j),
                *(minA+j), *(estMin+j), *(aprob+j), *(repro+j));
-    }
-}
+    }  
+    
+} 
