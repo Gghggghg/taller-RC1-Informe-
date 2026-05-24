@@ -13,7 +13,6 @@ void mostrar_resultados(int est,
                         float *promE, float *maxE, float *minE,
                         float *promA, float *maxA, float *minA,
                         int *aprob, int *repro, int *estMax, int *estMin);
-
 int main(void) 
 {
     int estudiantes = leer_estudiantes(5);
@@ -141,5 +140,4 @@ void mostrar_resultados(int est,
                j+1, *(promA+j), *(maxA+j), *(estMax+j),
                *(minA+j), *(estMin+j), *(aprob+j), *(repro+j));
     }  
-    
 } 
